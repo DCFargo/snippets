@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: #include <ncurses.h>
+# uuid: inc-nc
+# key: inc-nc
+# --
+#include <ncurses.h>
