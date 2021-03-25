@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: ncurses init_pair
+# uuid: ncipair
+# key: ncipair
+# --
+// ${1:description}
+init_pair(${2:id}, ${3:foreground}, ${4:background});

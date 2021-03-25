@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: ncurses change color
+# uuid: nccc
+# key: nccc
+# --
+attron(COLOR_PAIR(${1:id}))
+
+attroff(COLOR_PAIR($1))
+
