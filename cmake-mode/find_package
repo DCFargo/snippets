@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: find_package
+# uuid: fpack
+# key: fpack
+# --
+find_package(${1:package} REQUIRED)

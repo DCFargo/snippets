@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: default
+# uuid: df
+# key: df
+# --
+cmake_minimum_required(VERSION ${1:version})
+set(EXECUTABLE_OUTPUT_PATH \${PROJECT_SOURCE_DIR}/bin)
+set(LIBRARY_OUTPUT_PATH \${PROJECT_SOURCE_DIR}/lib)
+
+project(${2:project-name})
+
+add_executable($2 $2.cpp)

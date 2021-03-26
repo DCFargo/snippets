@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: include_directories
+# uuid: incdir
+# key: incdir
+# --
+include_directories(${1:directory})

@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: target_link_libraries
+# uuid: tll
+# key: tll 
+# --
+target_link_libraries(${1:project-name} ${2:library})
