@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
 # name: default
-# uuid: df
-# key: df
+# uuid: cmdf
+# key: cmdf
 # --
 cmake_minimum_required(VERSION ${1:version})
 set(EXECUTABLE_OUTPUT_PATH \${PROJECT_SOURCE_DIR}/bin)
